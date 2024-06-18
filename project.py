@@ -378,7 +378,7 @@ delete = {
 
 # Funções
 def connect_TrabalhoNota10():
-    cnx = psycopg2.connect(host='localhost', database='bd', user='postgres', password='macacoLH04')
+    cnx = psycopg2.connect(host='localhost', database='bd', user='postgres', password='your_password')
     cnx.autocommit
     return cnx
 
